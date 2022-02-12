@@ -35,8 +35,8 @@ class ChoiceAdmin(admin.ModelAdmin):
 
 # <HINT> Register Question and Choice models here
 
-admin.site.register(Question, QuestionInline)
-admin.site.register(Choice, ChoiceInline)
+admin.site.register(Question, QuestionAdmin)
+admin.site.register(Choice, ChoiceAdmin)
 
 admin.site.register(Course, CourseAdmin)
 admin.site.register(Lesson, LessonAdmin)
